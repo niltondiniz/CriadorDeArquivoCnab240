@@ -1,0 +1,11 @@
+C:\Users\sj0077\RiderProjects\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\bin\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.deps.json
+C:\Users\sj0077\RiderProjects\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\bin\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.runtimeconfig.json
+C:\Users\sj0077\RiderProjects\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\bin\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.runtimeconfig.dev.json
+C:\Users\sj0077\RiderProjects\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\bin\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.dll
+C:\Users\sj0077\RiderProjects\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\bin\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.pdb
+C:\Users\sj0077\RiderProjects\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\obj\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.csprojAssemblyReference.cache
+C:\Users\sj0077\RiderProjects\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\obj\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.csproj.CoreCompileInputs.cache
+C:\Users\sj0077\RiderProjects\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\obj\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.AssemblyInfoInputs.cache
+C:\Users\sj0077\RiderProjects\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\obj\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.AssemblyInfo.cs
+C:\Users\sj0077\RiderProjects\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\obj\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.dll
+C:\Users\sj0077\RiderProjects\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\obj\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.pdb
