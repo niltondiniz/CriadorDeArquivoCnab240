@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\sj0077\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\sj0077\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_GeradorDeArquivoCnab240.Console.-476155696.00" t="ExcludeRecursive" />
+    <e p="C:\Users\sj0077\RiderProjects\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console" t="IncludeFlat">
+      <e p="GeradorDeArquivoCnab240.Console" t="IncludeRecursive">
+        <e p="Arquivos" t="Include">
+          <e p="ARQUIVO_GERADO.REM" t="Include" />
+          <e p="ArquivoReferencia" t="Include">
+            <e p="PG000##CODIGOCLIENTE##_##DATAHORA##-##INDICE##.REM" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="GeradorDeArquivoCnab240.Console.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="GeradorDeArquivoCnab240.Console.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Validadores" t="Include">
+          <e p="CnpjValidador.cs" t="Include" />
+        </e>
+      </e>
+      <e p="GeradorDeArquivoCnab240.Console.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
