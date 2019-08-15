@@ -28,6 +28,7 @@ namespace GeradorDeArquivoCnab240.Console
             {
                 string line;
                 int counter = 0;
+                decimal totalPgto = 0;
                 string path = Path.Combine(Environment.CurrentDirectory,
                     @"Arquivos\ArquivoReferencia\PG000##CODIGOCLIENTE##_##DATAHORA##-##INDICE##.REM");
 
@@ -37,12 +38,12 @@ namespace GeradorDeArquivoCnab240.Console
                     {
 //                        System.Console.WriteLine(line);
                         counter++;
-                        var nwLine = SubstituirValores(line);
+                        var nwLine = SubstituirValores(line, ref totalPgto);
                         arquivo.AppendLine(nwLine);
                     }
                 }
-                
-                using(var tw = new StreamWriter(Path.Combine(Environment.CurrentDirectory,
+
+                using (var tw = new StreamWriter(Path.Combine(Environment.CurrentDirectory,
                     @"Arquivos\ARQUIVO_GERADO.REM"), true))
                 {
                     tw.WriteLine(arquivo);
@@ -59,12 +60,13 @@ namespace GeradorDeArquivoCnab240.Console
             }
         }
 
-        private static string SubstituirValores(string linha)
+        private static string SubstituirValores(string linha, ref decimal totalPgto)
         {
-            if (string.IsNullOrEmpty(linha)) return string.Empty;
+            if (string.IsNullOrEmpty(linha))
+                return string.Empty;
 
             linha = SetarDadosHeader(linha);
-            linha = SetarDadosSegmentoA(linha);
+            linha = SetarDadosSegmentoA(linha, ref totalPgto);
 
             return linha;
         }
@@ -85,21 +87,27 @@ namespace GeradorDeArquivoCnab240.Console
 
             return linha;
         }
-        
-        private static string SetarDadosSegmentoA(string linha)
+
+        private static string SetarDadosSegmentoA(string linha, ref decimal totalPgto)
         {
-            var dadosSegmentoA = new DetalheSegmentoA("TESTE DE FORNECEDOR", "1234567891", 1566, "12345678965448", DateTime.Now.AddDays(5));
+            
+            var dadosSegmentoA = new DetalheSegmentoA("TESTE DE FORNECEDOR", "1234567891", 1566, "12345678965448",
+                DateTime.Now.AddDays(5), totalPgto);
 
             if (!dadosSegmentoA.IsValid)
                 throw new Exception("Segmento A inválido.");
-            
+
             linha = linha.Replace("##NOME_FORNECEDOR##", dadosSegmentoA.NomeFornecedor);
-            linha = linha.Replace("##NUM_NOTA##",dadosSegmentoA.NumeroNota);
-            linha = linha.Replace("##DATA_VENCIMENTO##",dadosSegmentoA.DataVencimento.ToString(CultureInfo.InvariantCulture));
-            linha = linha.Replace("##VALOR_PGTO##",dadosSegmentoA.ValorPgto.ToString(CultureInfo.InvariantCulture));
+            linha = linha.Replace("##NUM_NOTA##", dadosSegmentoA.NumeroNota);
+            linha = linha.Replace("##DATA_VENCIMENTO##",
+                dadosSegmentoA.DataVencimento.ToString(CultureInfo.InvariantCulture));
+            linha = linha.Replace("##VALOR_PGTO##", dadosSegmentoA.ValorPgto.ToString(CultureInfo.InvariantCulture));
             linha = linha.Replace("##CNPJ_FORNECEDOR##", dadosSegmentoA.CnpjFornecedor);
-            
-            linha = linha.Replace("##TOTAL_PGTO##",dadosSegmentoA.ValorPgto.ToString(CultureInfo.InvariantCulture));
+
+            linha = linha.Replace("##TOTAL_PGTO##",
+                dadosSegmentoA.ValorTotalPgto.ToString(CultureInfo.InvariantCulture));
+            totalPgto = dadosSegmentoA.ValorTotalPgto;
+
             return linha;
         }
     }
@@ -109,13 +117,14 @@ namespace GeradorDeArquivoCnab240.Console
         public string NomeFornecedor { get; set; }
         public string NumeroNota { get; set; }
         public decimal ValorPgto { get; set; }
+        public decimal ValorTotalPgto { get; set; }
         public string CnpjFornecedor { get; set; }
         public string DataVencimento { get; set; }
-        
+
         private const int LengthNomeFornecedor = 30;
         private const int LengthNumeroNota = 20;
         private const int LengthValorPgto = 15;
-        
+
         public bool IsValid
         {
             get => true;
@@ -123,29 +132,31 @@ namespace GeradorDeArquivoCnab240.Console
         }
 
         public DetalheSegmentoA(string nomeFornecedor, string numeroNota, decimal valorPgto, string cnpjFornecedor,
-            DateTime dataVencimento)
+            DateTime dataVencimento, decimal totalPgto)
         {
             NomeFornecedor = nomeFornecedor;
             NumeroNota = numeroNota;
             ValorPgto = valorPgto;
             CnpjFornecedor = cnpjFornecedor;
             DataVencimento = dataVencimento.Date.ToString("MMddyyyy");
-
+            ValorTotalPgto = totalPgto += ValorPgto;
             ComplementarNomeFornecedor();
             ComplementarNumNota();
             ComplementarValorPgto();
+            ComplementarValorTotalPgto();
+
             Validar();
         }
 
         private void ComplementarNomeFornecedor()
         {
             if (string.IsNullOrEmpty(NomeFornecedor)) return;
-            
+
             var padding = System.Math.Abs(NomeFornecedor.Length - LengthNomeFornecedor);
 //            NomeFornecedor = NomeFornecedor.PadRight(padding, ' ');
             NomeFornecedor = string.Empty.PadRight(padding, ' ') + NomeFornecedor;
         }
-        
+
 
         private void ComplementarNumNota()
         {
@@ -162,6 +173,13 @@ namespace GeradorDeArquivoCnab240.Console
             ValorPgto = Convert.ToDecimal(string.Empty.PadRight(padding, '0') + ValorPgto);
         }
 
+        private void ComplementarValorTotalPgto()
+        {
+            var vlTotal = ValorTotalPgto.ToString(CultureInfo.InvariantCulture);
+            var padding = System.Math.Abs(vlTotal.Length - LengthNomeFornecedor);
+            ValorTotalPgto = Convert.ToDecimal(string.Empty.PadRight(padding, '0') + ValorTotalPgto);
+        }
+
         private void Validar()
         {
             if (NomeFornecedor.Length != LengthNomeFornecedor)
@@ -169,19 +187,19 @@ namespace GeradorDeArquivoCnab240.Console
                 IsValid = false;
                 return;
             }
-            
+
             if (NumeroNota.Length != LengthNumeroNota)
             {
                 IsValid = false;
                 return;
             }
-            
+
             if (ValorPgto.ToString(CultureInfo.CurrentCulture).Length != LengthValorPgto)
             {
                 IsValid = false;
                 return;
             }
-            
+
             if (CnpjValidador.Validar(CnpjFornecedor))
             {
                 IsValid = false;

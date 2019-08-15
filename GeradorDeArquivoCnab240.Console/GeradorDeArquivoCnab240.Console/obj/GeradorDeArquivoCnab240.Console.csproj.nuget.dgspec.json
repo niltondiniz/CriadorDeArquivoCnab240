@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Git\\JefersonDeSouza\\CriadorDeArquivoCnab240\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console.csproj": {}
+  },
+  "projects": {
+    "C:\\Git\\JefersonDeSouza\\CriadorDeArquivoCnab240\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\JefersonDeSouza\\CriadorDeArquivoCnab240\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console.csproj",
+        "projectName": "GeradorDeArquivoCnab240.Console",
+        "projectPath": "C:\\Git\\JefersonDeSouza\\CriadorDeArquivoCnab240\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console.csproj",
+        "packagesPath": "C:\\Users\\sj0077\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\JefersonDeSouza\\CriadorDeArquivoCnab240\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sj0077\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "http://daynuget/nuget/DayNuget/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

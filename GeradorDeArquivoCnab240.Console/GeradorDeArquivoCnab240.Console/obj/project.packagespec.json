@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\sj0077\\RiderProjects\\CriadorDeArquivoCnab240\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console.csproj",
+    "projectUniqueName": "C:\\Git\\JefersonDeSouza\\CriadorDeArquivoCnab240\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console.csproj",
     "projectName": "GeradorDeArquivoCnab240.Console",
-    "projectPath": "C:\\Users\\sj0077\\RiderProjects\\CriadorDeArquivoCnab240\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console.csproj",
-    "outputPath": "C:\\Users\\sj0077\\RiderProjects\\CriadorDeArquivoCnab240\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console\\obj\\",
+    "projectPath": "C:\\Git\\JefersonDeSouza\\CriadorDeArquivoCnab240\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console.csproj",
+    "outputPath": "C:\\Git\\JefersonDeSouza\\CriadorDeArquivoCnab240\\GeradorDeArquivoCnab240.Console\\GeradorDeArquivoCnab240.Console\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
