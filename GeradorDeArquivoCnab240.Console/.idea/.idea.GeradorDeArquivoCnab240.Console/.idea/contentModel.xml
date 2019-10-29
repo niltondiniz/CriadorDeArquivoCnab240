@@ -7,36 +7,6 @@
           <e p="ArquivoReferencia" t="Include">
             <e p="PG000##CODIGOCLIENTE##_##DATAHORA##-##INDICE##.REM" t="Include" />
           </e>
-          <e p="PG0008610896_29102019_001.REM" t="Include" />
-          <e p="PG0008610896_29102019_002.REM" t="Include" />
-          <e p="PG0008610896_29102019_003.REM" t="Include" />
-          <e p="PG0008610896_29102019_004.REM" t="Include" />
-          <e p="PG0008610896_29102019_005.REM" t="Include" />
-          <e p="PG0008610896_29102019_006.REM" t="Include" />
-          <e p="PG0008610896_29102019_007.REM" t="Include" />
-          <e p="PG0008610896_29102019_008.REM" t="Include" />
-          <e p="PG0008610896_29102019_009.REM" t="Include" />
-          <e p="PG0008610896_29102019_010.REM" t="Include" />
-          <e p="PG0008610896_29102019_011.REM" t="Include" />
-          <e p="PG0008610896_29102019_012.REM" t="Include" />
-          <e p="PG0008610896_29102019_013.REM" t="Include" />
-          <e p="PG0008610896_29102019_014.REM" t="Include" />
-          <e p="PG0008610896_29102019_015.REM" t="Include" />
-          <e p="PG0008610896_29102019_016.REM" t="Include" />
-          <e p="PG0008610896_29102019_017.REM" t="Include" />
-          <e p="PG0008610896_29102019_018.REM" t="Include" />
-          <e p="PG0008610896_29102019_019.REM" t="Include" />
-          <e p="PG0008610896_29102019_020.REM" t="Include" />
-          <e p="PG0008610896_29102019_021.REM" t="Include" />
-          <e p="PG0008610896_29102019_022.REM" t="Include" />
-          <e p="PG0008610896_29102019_023.REM" t="Include" />
-          <e p="PG0008610896_29102019_024.REM" t="Include" />
-          <e p="PG0008610896_29102019_025.REM" t="Include" />
-          <e p="PG0008610896_29102019_026.REM" t="Include" />
-          <e p="PG0008610896_29102019_027.REM" t="Include" />
-          <e p="PG0008610896_29102019_028.REM" t="Include" />
-          <e p="PG0008610896_29102019_029.REM" t="Include" />
-          <e p="PG0008610896_29102019_030.REM" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Entidade" t="Include">
