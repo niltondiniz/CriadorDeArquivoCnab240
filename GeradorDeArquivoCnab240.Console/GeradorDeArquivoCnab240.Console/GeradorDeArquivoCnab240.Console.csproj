@@ -9,4 +9,13 @@
       <Folder Include="Arquivos\ArquivoReferencia" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="Arquivos\ARQUIVO_GERADO.REM">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Arquivos\ArquivoReferencia\PG000##CODIGOCLIENTE##_##DATAHORA##-##INDICE##.REM">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>

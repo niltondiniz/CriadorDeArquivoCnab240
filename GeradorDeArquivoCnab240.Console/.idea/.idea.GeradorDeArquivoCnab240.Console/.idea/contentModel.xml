@@ -4,13 +4,42 @@
     <e p="C:\Git\JefersonDeSouza\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console" t="IncludeFlat">
       <e p="GeradorDeArquivoCnab240.Console" t="IncludeRecursive">
         <e p="Arquivos" t="Include">
-          <e p="ARQUIVO_GERADO.REM" t="Include" />
           <e p="ArquivoReferencia" t="Include">
             <e p="PG000##CODIGOCLIENTE##_##DATAHORA##-##INDICE##.REM" t="Include" />
           </e>
+          <e p="PG0008610896_29102019_001.REM" t="Include" />
+          <e p="PG0008610896_29102019_002.REM" t="Include" />
+          <e p="PG0008610896_29102019_003.REM" t="Include" />
+          <e p="PG0008610896_29102019_004.REM" t="Include" />
+          <e p="PG0008610896_29102019_005.REM" t="Include" />
+          <e p="PG0008610896_29102019_006.REM" t="Include" />
+          <e p="PG0008610896_29102019_007.REM" t="Include" />
+          <e p="PG0008610896_29102019_008.REM" t="Include" />
+          <e p="PG0008610896_29102019_009.REM" t="Include" />
+          <e p="PG0008610896_29102019_010.REM" t="Include" />
+          <e p="PG0008610896_29102019_011.REM" t="Include" />
+          <e p="PG0008610896_29102019_012.REM" t="Include" />
+          <e p="PG0008610896_29102019_013.REM" t="Include" />
+          <e p="PG0008610896_29102019_014.REM" t="Include" />
+          <e p="PG0008610896_29102019_015.REM" t="Include" />
+          <e p="PG0008610896_29102019_016.REM" t="Include" />
+          <e p="PG0008610896_29102019_017.REM" t="Include" />
+          <e p="PG0008610896_29102019_018.REM" t="Include" />
+          <e p="PG0008610896_29102019_019.REM" t="Include" />
+          <e p="PG0008610896_29102019_020.REM" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Entidade" t="Include">
+          <e p="DadosHeaderArquivo.cs" t="Include" />
+          <e p="DadosHeaderLote.cs" t="Include" />
+          <e p="DetalheSegmentoA.cs" t="Include" />
+        </e>
         <e p="GeradorDeArquivoCnab240.Console.csproj" t="IncludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="GeradorHelper.cs" t="Include" />
+          <e p="GerardorDeCnpjHelper.cs" t="Include" />
+          <e p="NotaFiscalHelper.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -18,6 +47,7 @@
             </e>
           </e>
         </e>
+        <e p="PG0008610896_20191028_001.REM" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Validadores" t="Include">
           <e p="CnpjValidador.cs" t="Include" />
@@ -26,7 +56,9 @@
       <e p="GeradorDeArquivoCnab240.Console.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\sj0077\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\sj0077\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_GeradorDeArquivoCnab240.Console.-1991274428.00" t="ExcludeRecursive" />
+    <e p="C:\Users\sj0077\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\sj0077\.Rider2019.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\sj0077\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\sj0077\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_GeradorDeArquivoCnab240.Console.-1991274428.00" t="ExcludeRecursive" />
   </component>
 </project>

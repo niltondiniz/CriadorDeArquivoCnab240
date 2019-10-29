@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49d13df3-de92-46ec-9a93-ee9d3d1ac0ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DadosHeaderArquivo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DadosHeaderLote.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DetalheSegmentoA.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Helpers/GeradorHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Helpers/GerardorDeCnpjHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Helpers/NotaFiscalHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GeradorDeArquivoCnab240.Console/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GeradorDeArquivoCnab240.Console/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GeradorDeArquivoCnab240.Console/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GeradorDeArquivoCnab240.Console/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Arquivos/ARQUIVO_GERADO.REM" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Arquivos/ARQUIVO_GERADO.REM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Arquivos/ARQUIVO_GERADO.REM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Arquivos/ArquivoReferencia/PG000##CODIGOCLIENTE##_##DATAHORA##-##INDICE##.REM" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Arquivos/ArquivoReferencia/PG000##CODIGOCLIENTE##_##DATAHORA##-##INDICE##.REM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/GeradorDeArquivoCnab240.Console.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/GeradorDeArquivoCnab240.Console.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/bin/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/bin/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/bin/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/bin/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/GeradorDeArquivoCnab240.Console.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/GeradorDeArquivoCnab240.Console.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/GeradorDeArquivoCnab240.Console.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/GeradorDeArquivoCnab240.Console.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,123 +28,64 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
-              <folding>
-                <marker date="1565888180048" expanded="false" signature="6:147" ph="..." />
-                <marker date="1565888180048" expanded="true" signature="190:8193" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="210:4034" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="256:311" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="362:461" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="512:1860" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="596:1659" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="970:1314" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="1030:1296" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="1484:1546" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="1692:1850" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="1946:2184" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="2246:2895" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="2983:4028" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="4069:7242" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="4554:4627" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="4800:5286" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="5337:5662" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="5707:5950" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="5996:6266" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="6317:6602" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="6634:7236" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="6707:6792" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="6848:6933" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="7024:7109" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="7165:7226" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="7279:7742" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="7416:7489" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="7544:7626" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="7658:7736" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="7776:8191" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="7810:7883" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="7993:8075" ph="{...}" />
-                <marker date="1565888180048" expanded="true" signature="8107:8185" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/dotnet/sdk/2.1.507/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.TargetFrameworkInference.targets">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="136" column="4" selection-start-line="136" selection-start-column="4" selection-end-line="136" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>60765823000130</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DadosHeaderArquivo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DadosHeaderLote.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Helpers/NotaFiscalHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Helpers/GerardorDeCnpjHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E5452CC3-D0B0-4A29-BF6C-8B48DADFC340/df/d1477673/Environment.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Helpers/GeradorHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4156DEFD-3D50-4A5F-A099-C2B49343A450/88/0a0c22b4/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Validadores/CnpjValidador.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DetalheSegmentoA.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Validadores/CnpjValidador.cs" />
+        <option value="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Helpers/NotaFiscalHelper.cs" />
+        <option value="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Helpers/GerardorDeCnpjHelper.cs" />
+        <option value="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Helpers/GeradorHelper.cs" />
+        <option value="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DadosHeaderArquivo.cs" />
+        <option value="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DadosHeaderLote.cs" />
         <option value="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Program.cs" />
+        <option value="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DetalheSegmentoA.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1SqV7yKhlolA27RqGecAKsAbacq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
-      <autoscrollFromSource SolutionExplorer="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="GeradorDeArquivoCnab240.Console" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="GeradorDeArquivoCnab240.Console" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="GeradorDeArquivoCnab240.Console" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -150,7 +95,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,58 +143,29 @@
       <workItem from="1565805367163" duration="11565000" />
       <workItem from="1565873880743" duration="668000" />
       <workItem from="1565874582773" duration="4652000" />
+      <workItem from="1572290953283" duration="18305000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19531000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Change Signature" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32910052" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32910052" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="15" weight="0.32804233" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -259,153 +175,31 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Program.cs</url>
-          <line>29</line>
-          <properties documentPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Program.cs" initialLine="22">
+          <line>99</line>
+          <properties documentPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Program.cs" initialLine="102">
             <startOffsets>
-              <option value="728" />
+              <option value="3443" />
             </startOffsets>
             <endOffsets>
-              <option value="887" />
+              <option value="3443" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DetalheSegmentoA.cs</url>
+          <line>38</line>
+          <properties documentPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DetalheSegmentoA.cs" initialLine="34">
+            <startOffsets>
+              <option value="1391" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1457" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>string.Empty.PadRight(padding, ' ') + NomeFornecedor</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>aa.ToString()</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>string.Empty.PadRight(padding, ' ').Concat(NomeFornecedor)</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:System.Linq</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>string.Empty.PadRight(padding, ' ').Concat(NomeFornecedor))</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:System.Linq</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>string.Empty.PadRight(padding, ' ').Concat(NomeFornecedor)))</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:System.Linq</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>NomeFornecedor.PadRight(padding, ' ')</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>vlTotal.PadLeft(padding, '0')</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>NomeFornecedor.PadLeft(30, '#')</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>NomeFornecedor.PadLeft(60, '#')</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Arquivos/ArquivoReferencia/PG000##CODIGOCLIENTE##_##DATAHORA##-##INDICE##.REM">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90E93788-E934-48B7-A7CB-CECAB05F4851/f8/0f4773b0/String.cs" />
-    <entry file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Validadores/CnpjValidador.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console.sln">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/GeradorDeArquivoCnab240.Console.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/dotnet/sdk/2.1.507/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.TargetFrameworkInference.targets">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="136" column="4" selection-start-line="136" selection-start-column="4" selection-end-line="136" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
-          <folding>
-            <marker date="1565888180048" expanded="false" signature="6:147" ph="..." />
-            <marker date="1565888180048" expanded="true" signature="190:8193" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="210:4034" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="256:311" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="362:461" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="512:1860" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="596:1659" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="970:1314" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="1030:1296" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="1484:1546" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="1692:1850" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="1946:2184" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="2246:2895" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="2983:4028" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="4069:7242" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="4554:4627" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="4800:5286" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="5337:5662" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="5707:5950" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="5996:6266" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="6317:6602" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="6634:7236" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="6707:6792" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="6848:6933" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="7024:7109" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="7165:7226" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="7279:7742" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="7416:7489" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="7544:7626" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="7658:7736" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="7776:8191" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="7810:7883" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="7993:8075" ph="{...}" />
-            <marker date="1565888180048" expanded="true" signature="8107:8185" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
