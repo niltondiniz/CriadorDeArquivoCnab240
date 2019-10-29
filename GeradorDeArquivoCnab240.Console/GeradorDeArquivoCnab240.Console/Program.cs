@@ -50,7 +50,7 @@ namespace GeradorDeArquivoCnab240.Console
                     RegexOptions.Multiline);
                 var pathDestino = Environment.CurrentDirectory.Split("bin").First() + "Arquivos";
 
-                for (var i = 0; i < 10; i++)
+                for (var i = 0; i < 5; i++)
                 {
                     using (var sw = File.CreateText(Path.Combine(pathDestino,
                         GeradorHelper.ObterNomeArquivo(pathDestino, "PG0008610896"))))
@@ -98,9 +98,14 @@ namespace GeradorDeArquivoCnab240.Console
 
         private static string SetarDadosSegmentoA(string linha, int totalLinhas)
         {
-            Cnpj = ArquivoComFornecedorUnico && string.IsNullOrEmpty(Cnpj)
-                ? GerardorDeCnpjHelper.GeraCnpj().CnpjLimpo()
-                : Cnpj;
+            if (ArquivoComFornecedorUnico && string.IsNullOrEmpty(Cnpj))
+            {
+                Cnpj = GerardorDeCnpjHelper.GeraCnpj().CnpjLimpo();
+            }
+            else if (!ArquivoComFornecedorUnico)
+            {
+                Cnpj = GerardorDeCnpjHelper.GeraCnpj().CnpjLimpo();
+            }
 
             var dadosSegmentoA = new DetalheSegmentoA("TESTE DE FORNECEDOR",
                 NotaFiscalHelper.GerarNumeroNotaFiscalAleatorio(), 1500, Cnpj.CnpjLimpo(),
