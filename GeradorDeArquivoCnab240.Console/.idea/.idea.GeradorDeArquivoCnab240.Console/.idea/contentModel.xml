@@ -27,6 +27,16 @@
           <e p="PG0008610896_29102019_018.REM" t="Include" />
           <e p="PG0008610896_29102019_019.REM" t="Include" />
           <e p="PG0008610896_29102019_020.REM" t="Include" />
+          <e p="PG0008610896_29102019_021.REM" t="Include" />
+          <e p="PG0008610896_29102019_022.REM" t="Include" />
+          <e p="PG0008610896_29102019_023.REM" t="Include" />
+          <e p="PG0008610896_29102019_024.REM" t="Include" />
+          <e p="PG0008610896_29102019_025.REM" t="Include" />
+          <e p="PG0008610896_29102019_026.REM" t="Include" />
+          <e p="PG0008610896_29102019_027.REM" t="Include" />
+          <e p="PG0008610896_29102019_028.REM" t="Include" />
+          <e p="PG0008610896_29102019_029.REM" t="Include" />
+          <e p="PG0008610896_29102019_030.REM" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Entidade" t="Include">
@@ -47,7 +57,6 @@
             </e>
           </e>
         </e>
-        <e p="PG0008610896_20191028_001.REM" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Validadores" t="Include">
           <e p="CnpjValidador.cs" t="Include" />

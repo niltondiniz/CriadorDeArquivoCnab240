@@ -143,7 +143,7 @@
       <workItem from="1565805367163" duration="11565000" />
       <workItem from="1565873880743" duration="668000" />
       <workItem from="1565874582773" duration="4652000" />
-      <workItem from="1572290953283" duration="18305000" />
+      <workItem from="1572290953283" duration="19131000" />
     </task>
     <servers />
   </component>
@@ -191,10 +191,10 @@
           <line>38</line>
           <properties documentPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DetalheSegmentoA.cs" initialLine="34">
             <startOffsets>
-              <option value="1391" />
+              <option value="1395" />
             </startOffsets>
             <endOffsets>
-              <option value="1457" />
+              <option value="1465" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="27" />
