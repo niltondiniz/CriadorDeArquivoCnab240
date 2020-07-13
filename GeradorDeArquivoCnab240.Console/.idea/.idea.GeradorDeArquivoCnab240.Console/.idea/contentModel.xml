@@ -4,170 +4,10 @@
     <e p="C:\Git\JefersonDeSouza\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console" t="IncludeFlat">
       <e p="GeradorDeArquivoCnab240.Console" t="IncludeRecursive">
         <e p="Arquivos" t="Include">
-          <e p="16701716000156_20042020_001.REM" t="Include" />
-          <e p="16701716000156_20042020_002.REM" t="Include" />
-          <e p="16701716000156_20042020_003.REM" t="Include" />
-          <e p="16701716000156_20042020_004.REM" t="Include" />
-          <e p="16701716000156_20042020_005.REM" t="Include" />
           <e p="ArquivoReferencia" t="Include">
             <e p="PG000##CODIGOCLIENTE##_##DATAHORA##-##INDICE##.REM" t="Include" />
           </e>
-          <e p="Importados" t="Include">
-            <e p="BKP" t="Include">
-              <e p="PG0008610896_17091900011.RET" t="Include" />
-              <e p="PG0008610896_17091900229.RET" t="Include" />
-              <e p="PG0008610896_17091900281.RET" t="Include" />
-              <e p="PG0008610896_17091900311.RET" t="Include" />
-              <e p="PG0008610896_17091900312.RET" t="Include" />
-              <e p="PG0008610896_17091900336.RET" t="Include" />
-              <e p="PG0008610896_17091900338.REM" t="Include" />
-              <e p="PG0008610896_17091900339.REM" t="Include" />
-              <e p="PG0008610896_17091900340.RET" t="Include" />
-              <e p="PG0008610896_17091900341.RET" t="Include" />
-              <e p="PG0008610896_17091900344.RET" t="Include" />
-              <e p="PG0008610896_17091900365.RET" t="Include" />
-              <e p="PG0008610896_17091900369.RET" t="Include" />
-              <e p="PG0008610896_17091900383.RET" t="Include" />
-              <e p="PG0008610896_17091900468.RET" t="Include" />
-              <e p="PG0008610896_17091900469.RET" t="Include" />
-              <e p="PG0008610896_17091900666.RET" t="Include" />
-              <e p="PG0008610896_17091900667.RET" t="Include" />
-              <e p="PG0008610896_17091900731.RET" t="Include" />
-              <e p="PG0008610896_17091900780.RET" t="Include" />
-              <e p="PG0008610896_17091900801.RET" t="Include" />
-              <e p="PG0008610896_17091900811.RET" t="Include" />
-              <e p="PG0008610896_17091900855.RET" t="Include" />
-              <e p="PG0008610896_17091900856.RET" t="Include" />
-              <e p="PG0008610896_17091900857.RET" t="Include" />
-              <e p="PG0008610896_17091900858.RET" t="Include" />
-              <e p="PG0008610896_17091900868.RET" t="Include" />
-              <e p="PG0008610896_17091900890.RET" t="Include" />
-              <e p="PG0008610896_17091900891.RET" t="Include" />
-              <e p="PG0008610896_17091900892.RET" t="Include" />
-              <e p="PG0008610896_17091900897.RET" t="Include" />
-              <e p="PG0008610896_17091903030.RET" t="Include" />
-              <e p="PG0008610896_17091904000.RET" t="Include" />
-              <e p="PG0008610896_17091904012.RET" t="Include" />
-              <e p="PG0008610896_17091904040.RET" t="Include" />
-              <e p="PG0008610896_17091904041.RET" t="Include" />
-              <e p="PG0008610896_17091904046.RET" t="Include" />
-              <e p="PG0008610896_17091904051.RET" t="Include" />
-              <e p="PG0008610896_17091904469.RET" t="Include" />
-              <e p="PG0008610896_17091904999.RET" t="Include" />
-              <e p="PG0008610896_17091905555.RET" t="Include" />
-              <e p="PG0008610896_17091906666.RET" t="Include" />
-              <e p="PG0008610896_17091909999.RET" t="Include" />
-              <e p="PG0008610896_27091900469.RET" t="Include" />
-            </e>
-            <e p="PG0008610896_08112019_001.REM" t="Include" />
-            <e p="PG0008610896_08112019_002.REM" t="Include" />
-            <e p="PG0008610896_29102019_1501.REM" t="Include" />
-            <e p="PG0008610896_29102019_1502.REM" t="Include" />
-            <e p="PG0008610896_29102019_1503.REM" t="Include" />
-            <e p="PG0008610896_29102019_1504.REM" t="Include" />
-            <e p="PG0008610896_29102019_1505.REM" t="Include" />
-            <e p="PG0008610896_29102019_1506.REM" t="Include" />
-            <e p="PG0008610896_29102019_1507.REM" t="Include" />
-            <e p="PG0008610896_29102019_1508.REM" t="Include" />
-            <e p="PG0008610896_29102019_1509.REM" t="Include" />
-            <e p="PG0008610896_29102019_1510.REM" t="Include" />
-            <e p="PG0008610896_29102019_1516.REM" t="Include" />
-            <e p="PG0008610896_29102019_1517.REM" t="Include" />
-            <e p="PG0008610896_29102019_1518.REM" t="Include" />
-            <e p="PG0008610896_29102019_1519.REM" t="Include" />
-            <e p="PG0008610896_29102019_1520.REM" t="Include" />
-            <e p="PG0008610896_29102019_271.REM" t="Include" />
-            <e p="PG0008610896_29102019_272.REM" t="Include" />
-            <e p="PG0008610896_29102019_273.REM" t="Include" />
-            <e p="PG0008610896_29102019_274.REM" t="Include" />
-            <e p="PG0008610896_29102019_275.REM" t="Include" />
-            <e p="PG0008610896_29102019_276.REM" t="Include" />
-            <e p="PG0008610896_29102019_277.REM" t="Include" />
-            <e p="PG0008610896_29102019_278.REM" t="Include" />
-            <e p="PG0008610896_29102019_279.REM" t="Include" />
-            <e p="PG0008610896_29102019_280.REM" t="Include" />
-            <e p="PG0008610896_29102019_281.REM" t="Include" />
-            <e p="PG0008610896_29102019_282.REM" t="Include" />
-            <e p="PG0008610896_29102019_283.REM" t="Include" />
-            <e p="PG0008610896_29102019_284.REM" t="Include" />
-            <e p="PG0008610896_29102019_285.REM" t="Include" />
-            <e p="PG0008610896_29102019_286.REM" t="Include" />
-            <e p="PG0008610896_29102019_287.REM" t="Include" />
-            <e p="PG0008610896_29102019_288.REM" t="Include" />
-            <e p="PG0008610896_29102019_289.REM" t="Include" />
-            <e p="PG0008610896_29102019_290.REM" t="Include" />
-            <e p="PG0008610896_29102019_291.REM" t="Include" />
-            <e p="PG0008610896_29102019_292.REM" t="Include" />
-            <e p="PG0008610896_29102019_293.REM" t="Include" />
-            <e p="PG0008610896_29102019_294.REM" t="Include" />
-            <e p="PG0008610896_29102019_295.REM" t="Include" />
-            <e p="PG0008610896_29102019_296.REM" t="Include" />
-            <e p="PG0008610896_29102019_297.REM" t="Include" />
-            <e p="PG0008610896_29102019_298.REM" t="Include" />
-            <e p="PG0008610896_29102019_299.REM" t="Include" />
-            <e p="PG0008610896_29102019_300.REM" t="Include" />
-            <e p="PG0008610896_29102019_501.REM" t="Include" />
-            <e p="PG0008610896_29102019_502.REM" t="Include" />
-            <e p="PG0008610896_29102019_503.REM" t="Include" />
-            <e p="PG0008610896_29102019_504.REM" t="Include" />
-            <e p="PG0008610896_29102019_505.REM" t="Include" />
-            <e p="PG0008610896_29102019_506.REM" t="Include" />
-            <e p="PG0008610896_29102019_507.REM" t="Include" />
-            <e p="PG0008610896_29102019_508.REM" t="Include" />
-            <e p="PG0008610896_29102019_509.REM" t="Include" />
-            <e p="PG0008610896_29102019_510.REM" t="Include" />
-            <e p="PG0008610896_29102019_511.REM" t="Include" />
-            <e p="PG0008610896_29102019_512.REM" t="Include" />
-            <e p="PG0008610896_29102019_513.REM" t="Include" />
-            <e p="PG0008610896_29102019_514.REM" t="Include" />
-            <e p="PG0008610896_29102019_515.REM" t="Include" />
-            <e p="PG0008610896_29102019_516.REM" t="Include" />
-            <e p="PG0008610896_29102019_517.REM" t="Include" />
-            <e p="PG0008610896_29102019_518.REM" t="Include" />
-            <e p="PG0008610896_29102019_519.REM" t="Include" />
-            <e p="PG0008610896_29102019_520.REM" t="Include" />
-            <e p="PG0008610896_29102019_521.REM" t="Include" />
-            <e p="PG0008610896_29102019_522.REM" t="Include" />
-            <e p="PG0008610896_29102019_523.REM" t="Include" />
-            <e p="PG0008610896_29102019_524.REM" t="Include" />
-            <e p="PG0008610896_29102019_525.REM" t="Include" />
-            <e p="PG0008610896_29102019_526.REM" t="Include" />
-            <e p="PG0008610896_29102019_527.REM" t="Include" />
-            <e p="PG0008610896_29102019_528.REM" t="Include" />
-            <e p="PG0008610896_29102019_529.REM" t="Include" />
-            <e p="PG0008610896_29102019_530.REM" t="Include" />
-            <e p="PG0008610896_29102019_531.REM" t="Include" />
-            <e p="PG0008610896_29102019_532.REM" t="Include" />
-            <e p="PG0008610896_29102019_533.REM" t="Include" />
-            <e p="PG0008610896_29102019_534.REM" t="Include" />
-            <e p="PG0008610896_29102019_535.REM" t="Include" />
-            <e p="PG0008610896_29102019_536.REM" t="Include" />
-            <e p="PG0008610896_29102019_537.REM" t="Include" />
-            <e p="PG0008610896_29102019_538.REM" t="Include" />
-            <e p="PG0008610896_29102019_539.REM" t="Include" />
-            <e p="PG0008610896_29102019_540.REM" t="Include" />
-            <e p="PG0008610896_29102019_541.REM" t="Include" />
-            <e p="PG0008610896_29102019_542.REM" t="Include" />
-            <e p="PG0008610896_29102019_543.REM" t="Include" />
-            <e p="PG0008610896_29102019_544.REM" t="Include" />
-            <e p="PG0008610896_29102019_545.REM" t="Include" />
-            <e p="PG0008610896_29102019_546.REM" t="Include" />
-            <e p="PG0008610896_29102019_547.REM" t="Include" />
-            <e p="PG0008610896_29102019_548.REM" t="Include" />
-            <e p="PG0008610896_29102019_549.REM" t="Include" />
-            <e p="PG0008610896_29102019_550.REM" t="Include" />
-            <e p="PG0008610896_29102019_551.REM" t="Include" />
-            <e p="PG0008610896_29102019_552.REM" t="Include" />
-            <e p="PG0008610896_29102019_553.REM" t="Include" />
-            <e p="PG0008610896_29102019_554.REM" t="Include" />
-            <e p="PG0008610896_29102019_555.REM" t="Include" />
-            <e p="PG0008610896_29102019_556.REM" t="Include" />
-            <e p="PG0008610896_29102019_557.REM" t="Include" />
-            <e p="PG0008610896_29102019_558.REM" t="Include" />
-            <e p="PG0008610896_29102019_559.REM" t="Include" />
-            <e p="PG0008610896_29102019_560.REM" t="Include" />
-            <e p="PG0008610896_29102019_900.REM" t="Include" />
-          </e>
+          <e p="Importados" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Entidade" t="Include">
@@ -196,10 +36,10 @@
       <e p="GeradorDeArquivoCnab240.Console.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\sj0077\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\sj0077\.Rider2019.3\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\sj0077\.Rider2019.3\config\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\sj0077\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\sj0077\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_GeradorDeArquivoCnab240.Console.-1991274428.00" t="ExcludeRecursive" />
+    <e p="C:\Users\sj0077\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\sj0077\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_GeradorDeArquivoCnab240.Console.-1991274428.00" t="ExcludeRecursive" />
+    <e p="C:\Users\sj0077\AppData\Roaming\JetBrains\Rider2020.1\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\sj0077\AppData\Roaming\JetBrains\Rider2020.1\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\sj0077\AppData\Roaming\JetBrains\Rider2020.1\scratches" t="IncludeRecursive" />
   </component>
 </project>
