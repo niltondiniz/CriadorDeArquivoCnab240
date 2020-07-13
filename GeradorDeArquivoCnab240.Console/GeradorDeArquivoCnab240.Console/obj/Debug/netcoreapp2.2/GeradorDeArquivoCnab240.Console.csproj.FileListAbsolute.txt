@@ -15,7 +15,6 @@ C:\Git\JefersonDeSouza\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\G
 C:\Git\JefersonDeSouza\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\bin\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.dll
 C:\Git\JefersonDeSouza\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\bin\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.pdb
 C:\Git\JefersonDeSouza\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\obj\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.csprojAssemblyReference.cache
-C:\Git\JefersonDeSouza\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\obj\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.csproj.CoreCompileInputs.cache
 C:\Git\JefersonDeSouza\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\obj\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.AssemblyInfoInputs.cache
 C:\Git\JefersonDeSouza\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\obj\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.AssemblyInfo.cs
 C:\Git\JefersonDeSouza\CriadorDeArquivoCnab240\GeradorDeArquivoCnab240.Console\GeradorDeArquivoCnab240.Console\obj\Debug\netcoreapp2.2\GeradorDeArquivoCnab240.Console.dll

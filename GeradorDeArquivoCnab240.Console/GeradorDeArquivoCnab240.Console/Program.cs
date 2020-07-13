@@ -53,7 +53,7 @@ namespace GeradorDeArquivoCnab240.Console
                 for (var i = 0; i < 5; i++)
                 {
                     using (var sw = File.CreateText(Path.Combine(pathDestino,
-                        GeradorHelper.ObterNomeArquivo(pathDestino, "PG0008610896"))))
+                        GeradorHelper.ObterNomeArquivo(pathDestino, "16701716000156"))))
                     {
                         sw.Write(arquivoSemLinhasVazias);
                     }
@@ -82,8 +82,8 @@ namespace GeradorDeArquivoCnab240.Console
 
         private static string SetarDadosHeader(string linha)
         {
-            var dadosHeaderArquivo = new DadosHeaderArquivo("10640319000135");
-            var dadosHeaderLote = new DadosHeaderLote("10640319000135");
+            var dadosHeaderArquivo = new DadosHeaderArquivo("16701716000156");
+            var dadosHeaderLote = new DadosHeaderLote("16701716000156");
 
             if (!dadosHeaderArquivo.IsValid)
                 throw new Exception("Header arquivo inválido.");
@@ -109,7 +109,7 @@ namespace GeradorDeArquivoCnab240.Console
 
             var dadosSegmentoA = new DetalheSegmentoA("TESTE DE FORNECEDOR",
                 NotaFiscalHelper.GerarNumeroNotaFiscalAleatorio(), 1500, Cnpj.CnpjLimpo(),
-                DateTime.Now.AddDays(6), totalLinhas);
+                DateTime.Now.AddDays(1), totalLinhas);
 
             if (!dadosSegmentoA.IsValid)
                 throw new Exception("Segmento A inválido.");
