@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="49d13df3-de92-46ec-9a93-ee9d3d1ac0ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GeradorDeArquivoCnab240.Console/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GeradorDeArquivoCnab240.Console/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GeradorDeArquivoCnab240.Console/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GeradorDeArquivoCnab240.Console/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/bin/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/bin/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/bin/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/bin/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/obj/Debug/netcoreapp2.2/GeradorDeArquivoCnab240.Console.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,16 +31,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Validadores/CnpjValidador.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DetalheSegmentoA.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DadosHeaderLote.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DadosHeaderArquivo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Validadores/CnpjValidador.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Helpers/NotaFiscalHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DadosHeaderLote.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Helpers/GeradorHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E5452CC3-D0B0-4A29-BF6C-8B48DADFC340/df/d1477673/Environment.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4156DEFD-3D50-4A5F-A099-C2B49343A450/88/0a0c22b4/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Helpers/GerardorDeCnpjHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GeradorDeArquivoCnab240.Console/Entidade/DetalheSegmentoA.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -53,7 +62,6 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
@@ -93,18 +101,6 @@
       </method>
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -129,11 +125,12 @@
       <workItem from="1579788801704" duration="687000" />
       <workItem from="1582239975192" duration="8971000" />
       <workItem from="1587390881141" duration="1730000" />
+      <workItem from="1594660153608" duration="261000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -142,13 +139,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1323" height="258" key="GridCell.Tab.0.bottom" timestamp="1587414230566">

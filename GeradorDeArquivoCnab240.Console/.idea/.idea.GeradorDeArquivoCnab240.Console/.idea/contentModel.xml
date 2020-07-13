@@ -7,7 +7,6 @@
           <e p="ArquivoReferencia" t="Include">
             <e p="PG000##CODIGOCLIENTE##_##DATAHORA##-##INDICE##.REM" t="Include" />
           </e>
-          <e p="Importados" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Entidade" t="Include">
